@@ -1,0 +1,95 @@
+.login_main_layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+padding-left: 5rem;
+}
+.login_sub_layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.login_sub_layout h4{
+    font-size: 2rem;
+    font-weight: 500;
+    color: darkblue;
+}
+.login_sub_layout p{
+    font-size: 1.2rem;
+    padding: .5rem 0;
+    width: 50%;
+}
+.sing_in_button button{
+    width: 100%;
+    background: darkblue;
+    padding: 10px 10px;
+    border-radius: 4px;
+    outline: none;
+    color: #fff;
+    text-align: center;
+    margin-top: 1rem;
+    border: none;
+    font-weight: 600;
+
+}
+.loginButton:disabled {
+    cursor: not-allowed;
+  }
+  .loginButton1:disabled {
+    border: none;
+    background: silver 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    color: var(--primary-color);
+    font-size: 15px !important;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-family: var(--poppins);
+    padding: 10px !important;
+    width: 400px !important;
+    text-align: center;
+    cursor: not-allowed;
+
+  }
+  .otp_boxes  {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+
+  }
+  .otp_box{
+
+    width:3rem;
+    height: 3rem;
+    font-size: 1.35em;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 0.6000000238418579px solid #A8A8A8;
+border-radius: 10px;
+    color: #333;
+    text-align: center;
+
+  }
+  .login_heading{
+    margin-top: 3rem;
+  }
+.containerClass_phone_input input{
+    /* background-color: rgb(253, 214, 214) !important;
+    color: rgb(104, 7, 60); */
+    height: 50px !important;
+    width: 400px !important;
+    font-weight: 500 !important;
+    outline: none !important;
+    font-size: 1.2rem !important;
+  }
+
+  .flag-dropdown {
+    /* background-color: rgb(240, 205, 159) !important; */
+  }
