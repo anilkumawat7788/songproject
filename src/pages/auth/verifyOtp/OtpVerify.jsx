@@ -7,7 +7,7 @@ const OtpVerify = () => {
   const otpInputs = useRef([]);
   const phoneNumber = localStorage.getItem("phonenumber");
   
-const StaticOTP = "1234"
+const StaticOTP = "5678"
 console.log("otp is", otp)
 var otpnewvalue = otp.join('');
   const handleInputChange = (e, index) => {
